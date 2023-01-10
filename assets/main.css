@@ -1,0 +1,204 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: rgb(0, 102, 204);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 102, 204);
+}
+a:hover {
+    text-decoration: underline;
+}
+ul, ol {
+    list-style-type: disc;
+    margin-left: 1em;
+}
+p {
+    margin-bottom: 1em;
+}
+
+/* basics */
+html, body {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #222;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Arial, Century, sans-serif;
+}
+main {
+    padding: 1em;
+    flex-grow: 1;
+}
+.page-content {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+header, footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+header a {
+    color: white;
+}
+header a:visited {
+    color: white;
+}
+header a:hover {
+    text-decoration: none;
+}
+.logo-wrapper {
+    background-color: rgb(9, 103, 146);
+    padding: .4em;
+}
+.scroll-wrapper {
+    background-color: red;
+}
+#logo, .nav {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+footer {
+    padding: 1em;
+    background-color: #efefef;
+    font-size: .9em;
+}
+.page-footer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* Header */
+#logo {
+    font-weight: 400;
+}
+
+.page-header a {
+    color: #fff;
+}
+
+/* SCROLL-MENU */
+.scroll-menu {
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.scroll-menu::-webkit-scrollbar {
+    display: none;
+}
+.scroll-menu li:hover {
+    display: block;
+    transition: 0.3s ease;
+    background-color: #436c97;
+    border-radius: 5px;
+}
+.scroll-menu li a {
+    /* display: inline-block; */
+    padding: .5em;
+}
+
+/*HAMBURGER MENU*/
+/* checkbox */
+#menu-toggle {
+    display: none;
+} 
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    display: block;
+}
+.hamburger-open {
+    display: inline-block;
+}
+.hamburger-close {
+    display: none;
+}
+.menu { 
+    display:none;
+    position: absolute;
+    background-color:rgb(5, 80, 116);
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 0;
+    gap: 0;
+    font-size: 1.2em;
+    list-style: none;
+    margin-left: 0;
+}
+.menu li {
+    padding: 0;
+}
+.menu li:hover {
+    display: block;
+    transition: 0.3s ease;
+    background-color: #436c97;
+    border-radius: 5px;
+}
+.menu li a {
+    display: block;
+    width: 100%;
+}
+#menu-toggle:checked ~ .menu {
+    display: block;
+    padding-top: .5em;
+}
+#menu-toggle:checked ~ .hamburger .hamburger-open {
+    display: none;
+}
+#menu-toggle:checked ~ .hamburger .hamburger-close {
+    display: inline-block;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 640px) {
+    /* footer */
+    .page-footer,
+    .page-footer a {
+        display: block;
+    }
+}
+
+/* https://web.dev/accessible-tap-targets/ */
+@media (any-pointer: coarse) {
+    a {
+        padding-top: .8em;
+        padding-bottom: .8em;
+    }
+}
+
+#logo {
+    font-size: 1.2em;
+}
+@media screen and (min-width: 400px) {
+    #logo {
+        font-size: 1.3em;
+    }
+}
+@media screen and (min-width: 600px) {
+    #logo {
+        font-size: 1.6em;
+    }
+}
+@media screen and (min-width: 800px) {
+    #logo {
+        font-size: 1.8em;
+    }
+}

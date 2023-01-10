@@ -1,0 +1,14 @@
+title: "Historisk Samfund for Århus Stift" # the name of your site, e.g. ACME Corp.
+
+# Exclude from processing.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
