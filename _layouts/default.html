@@ -18,6 +18,25 @@
 
     {%- include footer.html -%}
 
+    <script>
+      const lastMenuitem = document.querySelector("#scroll-menu li:last-of-type");
+      const scrollMenu = document.querySelector("#scroll-menu");
+      const menuContainer = document.querySelector(".menu-container");
+
+      function windowResize() {
+        if (scrollMenu.scrollWidth > scrollMenu.clientWidth) {
+          menuContainer.classList.add("gradient-menu");
+          lastMenuitem.classList.add("gradient-padded");
+        } else {
+          menuContainer.classList.remove("gradient-menu");
+          lastMenuitem.classList.remove("gradient-padded");
+        }
+      }
+      window.onresize = windowResize;
+      window.onload = windowResize;
+    </script>
+    <script src="{{ site.github.url }}/assets/script.js"></script>
+
   </body>
 
 </html>

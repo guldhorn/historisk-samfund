@@ -8,9 +8,6 @@ a {
     color: rgb(0, 102, 204);
     text-decoration: none;
 }
-a:visited {
-    color: rgb(0, 102, 204);
-}
 a:hover {
     text-decoration: underline;
 }
@@ -32,9 +29,9 @@ body {
     flex-direction: column;
     color: #222;
     font-size: 1.1em;
-    line-height: 1.8em;
     font-family: "Helvetica Neue Light", "Helvetica Neue", Arial, Century, sans-serif;
 }
+/* Main */
 main {
     padding: 1em;
     flex-grow: 1;
@@ -42,8 +39,10 @@ main {
 .page-content {
     max-width: 1024px;
     margin: 0 auto;
+    line-height: 1.8em;
 }
-header, footer {
+/* Header */
+header {
     flex-grow: 0;
     flex-shrink: 0;
 }
@@ -56,19 +55,97 @@ header a:visited {
 header a:hover {
     text-decoration: none;
 }
-.logo-wrapper {
+
+/* Header-containers */
+.logo-container {
     background-color: rgb(9, 103, 146);
-    padding: .4em;
 }
-.scroll-wrapper {
+.menu-container {
     background-color: red;
 }
-#logo, .nav {
+.menu-container.gradient-menu {
+    background-color: unset; /* shouldn't be necessary */
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1) 20%);
+}
+.logo-wrapper, .menu-wrapper {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
 }
+
+/* Logo */
+#logo {
+    display: block;
+    padding: .6rem;
+    font-weight: 400;
+    font-size: .9em;
+}
+@media screen and (min-width: 500px) {
+    #logo {
+        font-size: 1em;
+    }
+}
+@media screen and (min-width: 600px) {
+    #logo {
+        font-size: 1.1em;
+    }
+}
+@media screen and (min-width: 700px) {
+    #logo {
+        font-size: 1.2em;
+    }
+}
+@media screen and (min-width: 800px) {
+    #logo {
+        font-size: 1.3em;
+    }
+}
+@media screen and (min-width: 900px) {
+    #logo {
+        font-size: 1.4em;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #logo {
+        font-size: 1.5em;
+    }
+}
+
+/* SCROLL-MENU */
+#scroll-menu {
+    margin: 0;
+    list-style: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /* https://blog.logrocket.com/hide-scrollbar-without-impacting-scrolling-css/ */
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#scroll-menu::-webkit-scrollbar {
+    display: none;
+}
+#scroll-menu li {
+    display: inline-block;
+
+}
+#scroll-menu li.gradient-padded {
+    margin-right: 4em;
+}
+#scroll-menu li:hover {
+    transition: 0.3s ease;
+    background-color: #436c97;
+}
+#scroll-menu li a {
+    display: inline-block;
+    padding: .6rem;
+}
+
+/* Footer */
 footer {
+    flex-grow: 0;
+    flex-shrink: 0;
     padding: 1em;
     background-color: #efefef;
     font-size: .9em;
@@ -82,41 +159,29 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-/* Header */
-#logo {
-    font-weight: 400;
+
+/* Footer media queries */
+@media (max-width: 640px) {
+    /* footer */
+    .page-footer,
+    .page-footer a {
+        display: block;
+    }
 }
 
-.page-header a {
-    color: #fff;
+/* https://web.dev/accessible-tap-targets/ */
+@media (any-pointer: coarse) {
+    a {
+        padding-top: .8em;
+        padding-bottom: .8em;
+    }
 }
 
-/* SCROLL-MENU */
-.scroll-menu {
-    margin: 0 -10px;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-}
-.scroll-menu::-webkit-scrollbar {
-    display: none;
-}
-.scroll-menu li:hover {
-    display: block;
-    transition: 0.3s ease;
-    background-color: #436c97;
-    border-radius: 5px;
-}
-.scroll-menu li a {
-    /* display: inline-block; */
-    padding: .5em;
-}
+
 
 /*HAMBURGER MENU*/
 /* checkbox */
-#menu-toggle {
+/* #menu-toggle {
     display: none;
 } 
 .hamburger {
@@ -165,40 +230,4 @@ footer {
 }
 #menu-toggle:checked ~ .hamburger .hamburger-close {
     display: inline-block;
-}
-
-/* APPLYING MEDIA QUERIES */
-@media (max-width: 640px) {
-    /* footer */
-    .page-footer,
-    .page-footer a {
-        display: block;
-    }
-}
-
-/* https://web.dev/accessible-tap-targets/ */
-@media (any-pointer: coarse) {
-    a {
-        padding-top: .8em;
-        padding-bottom: .8em;
-    }
-}
-
-#logo {
-    font-size: 1.2em;
-}
-@media screen and (min-width: 400px) {
-    #logo {
-        font-size: 1.3em;
-    }
-}
-@media screen and (min-width: 600px) {
-    #logo {
-        font-size: 1.6em;
-    }
-}
-@media screen and (min-width: 800px) {
-    #logo {
-        font-size: 1.8em;
-    }
-}
+} */
