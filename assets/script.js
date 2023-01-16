@@ -32,19 +32,26 @@ async function fetchResults(params) {
 }
 
 // Function to define innerHTML for HTML table
-function displayResults(results) {
+function displayResults(result) {
     let lis = "";
-    if (!results.rows) {
-        lis+= `<p>No results!</p>`;
+    if (!result.rows) {
+        lis += `<p>No results!</p>`;
     } else {
-        results.rows.forEach((res) => {
-            lis += `<li class="result-item">
-            <span>${res.title}</span>
-            </li>`;
+        lis += `<p>${result.filtered_table_rows_count} resultat(er)</p>`;
+        result.rows.forEach((res) => {
+            lis += `<li class="result-item"><dl>
+                <dt>Forfatter</dt><dd>${res.author}</dd>
+                <dt>Titel</dt><dd>${res.title}</dd>
+                <dt>Årstal</dt><dd>${res.year}</dd>
+                <dt>Stedsangivelse</dt><dd>${res.place}</dd>
+                <dt>Tags</dt><dd>${res.tags}</dd>
+                <dt>Brødtekst</dt><dd>${res.data.slice(0,300)}...</dd>
+            </dl></li>`;
         });
-        if (results.next_url) {
-            lis += `<p><a href='${results.next_url}'>Flere resultater</a></p>`;
-        }
+        // Pagination not implemented yet
+        // if (result.next_url) {
+        //     lis += `<p><a href='${result.next_url}'>Flere resultater</a></p>`;
+        // }
     }
     // Setting innerHTML as tab variable
     document.querySelector(".results-list").innerHTML = lis;

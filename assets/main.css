@@ -18,7 +18,9 @@ ul, ol {
 p {
     margin-bottom: 1em;
 }
-
+dt {
+    font-weight: bold;
+}
 /* basics */
 html, body {
     height: 100%;
@@ -27,9 +29,9 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    color: #222;
+    color: #333;
     font-size: 1.1em;
-    font-family: "Helvetica Neue Light", "Helvetica Neue", Arial, Century, sans-serif;
+    font-family: Helvetica, 'Segoe UI', Arial sans-serif;
 }
 /* Main */
 main {
@@ -46,9 +48,7 @@ header {
     flex-grow: 0;
     flex-shrink: 0;
 }
-header a {
-    color: white;
-}
+header a,
 header a:visited {
     color: white;
 }
@@ -61,11 +61,15 @@ header a:hover {
     background-color: rgb(9, 103, 146);
 }
 .menu-container {
-    background-color: red;
+    background-color: #d4d4d4;
+}
+.menu-container a,
+.menu-container a:visited {
+    color: #454545;
 }
 .menu-container.gradient-menu {
     background-color: unset; /* shouldn't be necessary */
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1) 20%);
+    background-image: linear-gradient(to left, rgba(255,0,0,0), #d4d4d4 20%);
 }
 .logo-wrapper, .menu-wrapper {
     width: 100%;
@@ -135,7 +139,7 @@ header a:hover {
 }
 #scroll-menu li:hover {
     transition: 0.3s ease;
-    background-color: #436c97;
+    background-color: #b4b4b4;
 }
 #scroll-menu li a {
     display: inline-block;

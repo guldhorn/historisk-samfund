@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Udgivelser
-permalink: /udgivelser
+title: Årbøger
+permalink: /aarboeger
 ---
 
 Denne side fortæller lidt om udgivelserne.

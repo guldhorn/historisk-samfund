@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Kontakt
+title: Kontakt os
 permalink: /kontakt
 ---
 
-## Kontakt os
 Vil du i kontakt med Historisk Samfund for Århus Stift kan du sende en besked til samfundet. Du kan også sende en besked via brev eller mail til samfundets formand:
 
 Peter Mouritsen

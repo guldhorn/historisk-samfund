@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Om foreningen
-permalink: /foreningen
+permalink: /om-foreningen
 ---
 
 Denne side fortæller lidt om foreningen.
