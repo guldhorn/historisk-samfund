@@ -150,7 +150,7 @@ header a:hover {
 footer {
     flex-grow: 0;
     flex-shrink: 0;
-    padding: 1em;
+    padding: .2em 1em;
     background-color: #efefef;
     font-size: .9em;
 }
@@ -162,6 +162,10 @@ footer {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.page-footer a {
+    padding-top: .8em;
+    padding-bottom: .8em;
 }
 
 /* Footer media queries */
