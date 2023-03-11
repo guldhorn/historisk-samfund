@@ -4,10 +4,12 @@ title: Kontakt os
 permalink: /kontakt
 ---
 
-Vil du i kontakt med Historisk Samfund for Århus Stift kan du sende en besked til samfundet. Du kan også sende en besked via brev eller mail til samfundets formand:
+Vil du i kontakt med Historisk Samfund for Århus Stift kan du udfylde nedenstående formular eller sende en mail til foreningens digitale postkasse.
 
-Peter Mouritsen
-Marstrandsgade 8, 1.sal
-8000 Aarhus C
-Telefon: 24 48 95 35
-Mail: peter.mouritsen@gmail.com
+Formularfelter:
+Dit navn
+Email
+Emne
+Kommentarfelt
+
+Formularen sendes til post@historisk-samfund-aarhus.dk
