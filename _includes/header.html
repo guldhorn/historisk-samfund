@@ -1,17 +1,17 @@
 <header role="banner">
   <div class="logo-container">
     <h2 class="logo-wrapper">
-      <a id="logo" href="/" aria-label="Gå til forsiden">Historisk Samfund for Århus Stift</a>
+      <a id="logo" href="{{ '/' | relative_url }}" aria-label="Gå til forsiden">Historisk Samfund for Århus Stift</a>
     </h2>
   </div>
   <div class="menu-container">
     <nav class="menu-wrapper" role="navigation">
       <ul id="scroll-menu">
-        <li><a id="first-menu-link" href="/foreningen">Foreningen</a></li>
-        <li><a href="/arrangementer">Arrangementer</a></li>
-        <li><a href="/aarboeger">Årbøger</a></li>
-        <li><a href="/artikler">Artikelbasen</a></li>
-        <li><a id="last-menu-link" href="/bliv-medlem">Bliv medlem</a></li>
+        <li><a id="first-menu-link" href=""{{ 'foreningen' | relative_url }}">Foreningen</a></li>
+        <li><a href="{{ 'arrangementer' | relative_url }}">Arrangementer</a></li>
+        <li><a href="{{ '/aarboeger' | relative_url }}">Årbøger</a></li>
+        <li><a href="{{ 'articles' | relative_url }}">Artikelbasen</a></li>
+        <li><a id="last-menu-link" href="{{ 'bliv-medlem' | relative_url }}">Bliv medlem</a></li>
       </ul>
     </nav>
   </div>

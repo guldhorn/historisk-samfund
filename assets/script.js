@@ -1,6 +1,6 @@
 // api url
 const api_url =
-    "http://localhost:8001/historisk-samfund/articles.json?_sort=year&_shape=objects";
+    "http://localhost:8001/historisk-samfund/articles.json?_sort=year&_shape=objects&_size=1000";
 const sform = document.querySelector("#searchform");
 
 // sform.onsubmit = async (e) => {
