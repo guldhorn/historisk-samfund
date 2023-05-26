@@ -24,7 +24,7 @@ async function fetchResults(params) {
         // This is the JSON from our response
         console.log(result);
         // return result;
-        displayResults(result);
+        displayResults(result, params);
     }).catch((err) => {
         // There was an error
         console.warn('Something went wrong.', err);
@@ -32,21 +32,26 @@ async function fetchResults(params) {
 }
 
 // Function to define innerHTML for HTML table
-function displayResults(result) {
+function displayResults(result, params) {
     let lis = "";
     if (!result.rows) {
         lis += `<p>No results!</p>`;
     } else {
-        lis += `<p>${result.filtered_table_rows_count} resultat(er)</p>`;
+        lis += `<div class="results-header">
+            <span>${result.filtered_table_rows_count} resultat(er) fundet</span>
+        </div>`;
         result.rows.forEach((res) => {
-            lis += `<li class="result-item"><dl>
-                <dt>Forfatter</dt><dd>${res.author}</dd>
-                <dt>Titel</dt><dd>${res.title}</dd>
-                <dt>Årstal</dt><dd>${res.year}</dd>
-                <dt>Stedsangivelse</dt><dd>${res.place}</dd>
-                <dt>Tags</dt><dd>${res.tags}</dd>
-                <dt>Brødtekst</dt><dd>${res.data.slice(0,300)}...</dd>
-            </dl></li>`;
+            lis += `<li class="result-item">
+                <h4 class="result-item-title">${res.title}</h4>
+                <p class="result-item-text">${res.data.slice(0,280)}...</p>
+                <ul class="result-item-data">
+                    <li><span class="key">Forfatter</span><span class="value">${res.author}<span></span></li>
+                    <li><span class="key">Årgang</span><span class="value">${res.year}, ${res.pages}</span></li>
+                    <li><span class="key">Tags</span><span class="value">${res.tags}</span></li>
+                    <li><span class="key">Sted</span><span class="value">${res.place}</span></li>
+                </ul>
+                <div class="result-item-download"><a href="http://localhost:8001/static/articles/${res.filename}">Hent hele artiklen som pdf</a></div>
+            </li>`;
         });
         // Pagination not implemented yet
         // if (result.next_url) {
