@@ -88,6 +88,9 @@ function processPage() {
     // the API
     if (params.get("_next") && !localStorage.getItem("start")) {
         params.delete("_next");
+        console.log(params);
+        window.location.assign(window.location.origin + window.location.pathname + "?" + params.toString());
+        return false;
     }
     // if there are any valid search-params left, make a search
     if (params.size) {
