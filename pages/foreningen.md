@@ -22,7 +22,7 @@ Skejbyparken 360, st 5
 8200 Aarhus N
 Mail: mathilde_hoeberg@hotmail.dk
 
-##### Kasserer
+#### Kasserer
 Thomas Norskov Kristensen
 Hejredalsvej 106, 8220
 Telefon: 2920 3964
