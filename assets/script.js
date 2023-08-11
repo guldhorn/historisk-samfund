@@ -23,17 +23,21 @@ function updateLocalstorage(totalHits, params) {
 
     // if no localStorage is set, initialize data (checking for "start" is enough)
     if (!localStorage.getItem("start")) {
-        localStorage.setItem("total", totalHits.toString());
+        localStorage.setItem("total", totalHits);
         localStorage.setItem("start", "1");
-        localStorage.setItem("end", Math.min(totalHits, 20).toString());
+        localStorage.setItem("end", Math.min(totalHits, 20));
         localStorage.setItem("next", "0");
     } else {
+        // if query-params' "next" is greater than localStorage's ditto
+        // the user clicked "Næste side", else "Forrige side" (window.hostiry.back()) was clicked
         if (localStorage.getItem("next") < params.get("_next")) {
             localStorage.setItem("start", parseInt(localStorage.getItem("start")) + 20);
-            localStorage.setItem("end", parseInt(localStorage.getItem("end")) + 20);
+            localStorage.setItem("end", Math.min(totalHits, parseInt(localStorage.getItem("end")) + 20));
         } else {
+            // On last page, sometimes the diff between start and end is not 20
+            let diff = parseInt(localStorage.getItem("end")) - parseInt(localStorage.getItem("start"));
             localStorage.setItem("start", parseInt(localStorage.getItem("start")) - 20);
-            localStorage.setItem("end", parseInt(localStorage.getItem("end")) - 20);
+            localStorage.setItem("end", parseInt(localStorage.getItem("end")) - diff - 1);
         }
         localStorage.setItem("next", params.get("_next") || "0")
     }
