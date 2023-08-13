@@ -111,14 +111,14 @@ footer {
 .page-content {
     max-width: 1024px;
     margin: 0 auto;
+    margin-bottom: 2em;
     padding: 1rem;
     line-height: 1.8em;
 }
 .page-footer {
     max-width: 1024px;
     margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: .3rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -245,21 +245,9 @@ header a:hover {
     }
 }
 
-/*****************/
-/* Searchresults */
-/*****************/
-#searchform {
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 1.5em 0;
-    gap: .8em;
-}
-@media (max-width: 32em) {
-    #searchform {
-        flex-wrap: wrap;
-    }
-}
-
+/*********/
+/* Forms */
+/*********/
 select,
 textarea,
 input {
@@ -280,16 +268,10 @@ input {
     }
 }
 
-#searchform input[type="search"] {
-    flex-grow: 1;
-}
-@media (min-width: 32em) {
-    #searchform #year-filter {
-        max-width: 12em;
-    }
-}
-.button,
-.contact-form button,
+/***********/
+/* Buttons */
+/***********/
+#contactform button,
 #searchform button {
     display: inline-block;
     outline: 0;
@@ -304,13 +286,50 @@ input {
     font-size: 1em;
     border: 1px solid rgb(0, 120, 212);
 }
-
-.button:hover,
-.contact-form button:hover,
+#contactform button:hover,
 #searchform button:hover {
     background-color: rgb(16, 110, 190);
     border: 1px solid rgb(16, 110, 190);
 }
+
+/**************/
+/* Searchform */
+/**************/
+#searchform {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 1.5em 0;
+    gap: .8em;
+}
+@media (max-width: 32em) {
+    #searchform {
+        flex-wrap: wrap;
+    }
+}
+
+#searchform input[type="search"] {
+    flex-grow: 1;
+}
+@media (min-width: 32em) {
+    #searchform #year-filter {
+        max-width: 12em;
+    }
+}
+/***************/
+/* Contactform */
+/***************/
+#contactform input {
+    margin-bottom: .5em;
+}
+#contactform button {
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+}
+
+/**************/
+/* Pagination */
+/**************/
 .pagination-link {
     cursor: pointer;
     border-bottom: 2px solid rgb(16, 110, 190);
@@ -319,7 +338,6 @@ input {
     text-decoration: none;
     background-color: #e6e6e6;
 }
-
 .pagination-link-inactive {
     color: #999;
 }
@@ -328,6 +346,9 @@ input {
     text-decoration: none;
 }
 
+/*****************/
+/* Searchresults */
+/*****************/
 .results-footer,
 .results-header {
     display: flex;
@@ -349,7 +370,6 @@ input {
     cursor: pointer;
     /* transition: color var(--transition); */
 }
-
 .result-item {
     padding: .8em;
     margin-top: 1em;

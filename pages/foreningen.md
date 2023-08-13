@@ -9,43 +9,40 @@ Historisk Samfund for Århus Stift har til formål at fremme interessen for Øst
 Historisk Samfund blev stiftet i 1907, og er dermed en af landets ældste lokalhistoriske foreninger. Foreningens ældre årbøger er blevet digitaliseret og udgør i dag et væsentligt bidrag til forståelsen af vores lokale historie. 
 
 ### Bestyrelsen
-#### Formand 
-Peter Mouritsen
-Thyrasgade 7
-8260 Viby J
-Telefon: 2448 9535
+**Peter Mouritsen (Formand)**<br>
+Thyrasgade 7<br>
+8260 Viby J<br>
+Telefon: 2448 9535<br>
 Mail: peter.mouritsen@gmail.com
 
-#### Næstformand
-Mathilde Høberg
-Skejbyparken 360, st 5
-8200 Aarhus N
+**Mathilde Høberg (Næstformand)**<br>
+Skejbyparken 360, st 5<br>
+8200 Aarhus N<br>
 Mail: mathilde_hoeberg@hotmail.dk
 
-#### Kasserer
-Thomas Norskov Kristensen
-Hejredalsvej 106, 8220
-Telefon: 2920 3964
+**Thomas Norskov Kristensen (Kasserer)**<br>
+Hejredalsvej 106, 8220<br>
+Telefon: 2920 3964<br>
 Mail: thkri@aarhus.dk
 
 #### Bestyrelsesmedlemmer
-Berit Guldmann Andersen
+*Berit Guldmann Andersen*<br>
 Mail: bghornstrup@hotmail.com
 
-Louise Højbjerg Jacobsen
+*Louise Højbjerg Jacobsen*<br>
 Mail: louisehojbjerg@gmail.com
 
-Martin Philipsen Mølgaard
+*Martin Philipsen Mølgaard*<br>
 Mail: mpm@museumskanderborg.dk
 
-Hanne Schaumburg Sørensen
+*Hanne Schaumburg Sørensen*<br>
 Mail: hss@museumoj.dk
 
 #### Suppleanter
-Lars Nikolajsen
+*Lars Nikolajsen*<br>
 Mail: vibbeoglars@mail.dk 
  
-Jacob Knudsen
+*Jacob Knudsen*<br>
 Mail: gajev1903@gmail.com
 
 ### Vedtægter for Historisk Samfund for Århus Stift

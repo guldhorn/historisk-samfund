@@ -1,5 +1,6 @@
 title: "Historisk Samfund for Århus Stift" # the name of your site, e.g. ACME Corp.
-
+site:
+  url: "https://aarhusstadsarkiv.github.io/historisk-samfund"
 # Exclude from processing.
 exclude:
   - .sass-cache/
