@@ -1,8 +1,12 @@
 // update when api in on a Hetzner server
 const api_url = "http://localhost:8001/historisk-samfund/articles.json";
 const static_url = "http://localhost:8001/static/articles";
-const searchform = document.querySelector("#searchform");
 const valid_query_params = ["_shape", "_search", "_next", "_sort", "year"];
+const searchform = document.querySelector("#searchform");
+
+const new_api_url = "http://localhost:8000/search";
+const new_static_url = "http://localhost:8000/static";
+const new_valid_query_params = ["q", "size", "next", "sort", "year", "previous", "direction"];
 
 if (document.readyState === "loading") {
     // Loading hasn't finished yet

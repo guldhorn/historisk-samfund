@@ -254,7 +254,7 @@ input {
     padding: 0 8px;
     border-radius: 3px;
     width: 100%;
-    min-width: 10em;
+    /* min-width: 10em; */
     min-height: 36px;
     background-color: #ffffff;
     border: 1px solid rgba(36,28,21,0.3);
@@ -296,24 +296,38 @@ input {
 /* Searchform */
 /**************/
 #searchform {
-    display: flex;
-    flex-wrap: nowrap;
+    width: 100%;
     margin: 1.5em 0;
-    gap: .8em;
-}
-@media (max-width: 32em) {
-    #searchform {
-        flex-wrap: wrap;
-    }
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* gap: .8em; */
 }
 
-#searchform input[type="search"] {
+.form-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: .8em;
+    align-items: flex-end;
+    margin-bottom: .8em;
+}
+
+input[type="search"] {
     flex-grow: 1;
 }
+
+#year {
+    width: 8em;
+}
+#sort {
+    width: 6em;
+}
+#size {
+    width: 4em;
+}
 @media (min-width: 32em) {
-    #searchform #year-filter {
+    /* #searchform #year-filter {
         max-width: 12em;
-    }
+    } */
 }
 /***************/
 /* Contactform */
