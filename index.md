@@ -9,7 +9,7 @@ layout: default
     {% for file in site.static_files %}
     {% if file.extname == ".jpg" %}
         <li class="slide">
-            <img src="{{ file.path }}" alt="Slide {{ loop.index }}">
+            <img src="{{ file.path | relative_url }}" alt="Slide {{ loop.index }}">
         </li>
     {% endif %}
     {% endfor %}
