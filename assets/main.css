@@ -324,8 +324,9 @@ input {
 /***************/
 /* Contactform */
 /***************/
-#contactform input {
-    margin-bottom: .5em;
+#contactform input,
+#contactform textarea {
+    margin-bottom: .8em;
 }
 
 

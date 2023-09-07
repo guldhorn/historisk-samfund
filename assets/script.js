@@ -3,7 +3,7 @@ const search_url = "https://histsamf.misc.openaws.dk/search";
 const static_url = "https://histsamf.misc.openaws.dk/static";
 
 const searchform = document.querySelector("#searchform");
-const valid_query_params = ["q", "year", "size", "next", "sort", "offset", "previous", "direction"];
+const valid_query_params = ["q", "year", "size", "next", "sort", "offset", "previous"];
 
 if (document.readyState === "loading") {
     // Loading hasn't finished yet
@@ -73,6 +73,7 @@ if (searchform) {
             if (value.toString().trim() === '') formData.delete(name);
         }
         let params = new URLSearchParams(formData);
+
         // update the url with the queryParams, so that it is bookmarkable
         // we have to do it before fetchAndDisplay, as this function is also called from
         // processPage when the queryparams are already in place, so no need to push state
@@ -100,7 +101,7 @@ function displayResults(result) {
     // "params" is URLQueryParams (from FormData or url-querystring)
     let html = "";
     if (!result.rows.length) {
-        html += `<p>Ingen resultater matchede din søgning!</p>`;
+        html += `<h4>Ingen resultater matchede din søgning!</h4>`;
     } else {
         html += `<div class="results-header">
                     <div class="results-counter">${generateResultCounters(result)} hits</div>

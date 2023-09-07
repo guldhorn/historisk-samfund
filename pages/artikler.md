@@ -10,7 +10,7 @@ Du kan tilgå artiklerne her. Historisk Samfund for Århus Stift ønsker alle go
 
 <div class="searchform-container">
     <form id="searchform" method="get">
-        <input id="q" class="form-control" name="q" type="search" aria-label="Indtast søgeord" placeholder="Indtast søgeord">
+        <input id="q" class="form-control" name="q" type="search" aria-label="Indtast søgeord" placeholder="Indtast søgeord" required>
         <div class="form-row">
             <div class="select-container">
                 <label for="year">Årstal
