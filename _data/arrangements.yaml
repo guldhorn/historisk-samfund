@@ -1,0 +1,42 @@
+# These are the arrangements listed on /arrangements
+# The arrangements are listed in the same order as below
+
+# For each arrangement you have to define the following:
+# page_url: relative link to the page of the arrangement
+#   Start with '/arrangementer/' + the name, but not extension, of the .md-file
+#   Eg.: /arrangementer/2023-09-26-nyt-om-tollundmanden
+# image_url: relative link to the image-file
+#   Start with '/assets/' + the full filename
+#   Eg.: /assets/tollundmanden-arrangement.jpg
+#   The image-file should be roughly square with a height of 500px
+# alt: Foredrag om Tollundmanden
+# title: Title of the arrangement. Also use as browser-title
+# time: Tirsdag den 26. september 2023
+
+- page_url: /arrangementer/2023-09-26-nyt-om-tollundmanden
+  image_url: /assets/tollundmanden-arrangement.jpg
+  image_alt: Foredrag om Tollundmanden
+  title: Nyt om Tollundmanden. Bændelorm, fodvorter og lækker grød
+  presenter: Ved Nina Helt Nielsen, Forskningschef, Museum Silkeborg
+  location: Foredraget foregår på Dokk1, niv. 2.2, Aarhus Stadsarkiv
+  date: Tirsdag den 26. september 2023
+  time: Kl. 19.00
+  price: Gratis for medlemmer. 50 kr. for ikke-medlemmer
+- page_url: /arrangementer/2023-11-08-kulturhistorisk-skrald
+  image_url: /assets/kulturhistorisk-skrald-arrangement.jpg
+  image_alt: Foredrag om kulturhistorisk skrald
+  title: Kulturhistorisk skrald. Museet i mudderet (metaldekektor)
+  presenter: Ved Anders Sinding – Museumsinspektør, Gammel Estrup Danmarks Herregårdsmuseum
+  location: Foredraget foregår på Dokk1, niv. 2.2, Aarhus Stadsarkiv
+  date: Onsdag den 8. november 2023
+  time: Kl. 19.00
+  price: Gratis for medlemmer. 50 kr. for ikke-medlemmer
+- page_url: /arrangementer/2023-11-27-om-livoe
+  image_url: /assets/livoe-arrangement.jpg
+  image_alt: Foredrag om Livø
+  title: Om Livø. 50 år på anstalten
+  presenter: Ved Maria Clement Hagstrup – Museumsinspektør, Vesthimmerlands Museum
+  location: Foredraget foregår på Dokk1, niv. 2.2, Aarhus Stadsarkiv
+  date: Mandag den 27. november 2023
+  time: Kl. 19.00
+  price: Gratis for medlemmer. 50 kr. for ikke-medlemmer
