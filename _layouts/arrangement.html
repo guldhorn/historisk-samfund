@@ -2,29 +2,40 @@
 layout: default
 ---
 
-<div class="arrangement">
-    <div class="arrangement-hero">
-        <div class="arrangement-core">
-            <p class ="arrangement-title">{{ page.title }}</p>
-            <p class="arrangement-host">{{ page.host }}</p>
-            <ul class="arrangement-metadata">
-                <li class="arrangement-time">
-                    <span class="arrangement-metadata-key">Tid</span>
-                    <span class="arrangement-metadata-value">{{ page.time }}</span>
-                </li>
-                <li class="arrangement-location">
-                    <span class="arrangement-metadata-key">Sted</span>
-                    <span class="arrangement-metadata-value">{{ page.location }}</span>
-                </li>
-                <li class="arrangement-price">
-                    <span class="arrangement-metadata-key">Pris</span>
-                    <span class="arrangement-metadata-value">{{ page.price }}</span>
-                </li>
-            </ul>
+{% assign url = page.url | replace: '.html', '' %}
+
+{% for arr in site.data.arrangements %}
+{% if arr.page_url == url %}
+    <div class="arrangement">
+        <div class="arrangement-hero">
+            <div class="arrangement-core">
+                <p class ="arrangement-title">{{ arr.title }}</p>
+                <p class="arrangement-host">{{ arr.host }}</p>
+                <ul class="arrangement-metadata">
+                    <li class="arrangement-date">
+                        <span class="arrangement-metadata-key">Dato</span>
+                        <span class="arrangement-metadata-value">{{ arr.date }}</span>
+                    </li>
+                    <li class="arrangement-time">
+                        <span class="arrangement-metadata-key">Tid</span>
+                        <span class="arrangement-metadata-value">{{ arr.time }}</span>
+                    </li>
+                    <li class="arrangement-location">
+                        <span class="arrangement-metadata-key">Sted</span>
+                        <span class="arrangement-metadata-value">{{ arr.location }}</span>
+                    </li>
+                    <li class="arrangement-price">
+                        <span class="arrangement-metadata-key">Pris</span>
+                        <span class="arrangement-metadata-value">{{ arr.price }}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="arrangement-image-container">
+                <img class="arrangement-image" src="{{ arr.image_url | relative_url }}" alt="{{ arr.image_alt }}"/>
+            </div>
         </div>
-        <div class="arrangement-image-container">
-            <img class="arrangement-image" src="/assets/{{ page.image }}" alt="{{ page.title }}"/>
-        </div>
+        <div class="arrangement-text">{{ page.content | newline_to_br }}</div>
     </div>
-    <div class="arrangement-text">{{ page.content | newline_to_br }}</div>
-</div>
+{% break %}
+{% endif %}
+{% endfor %}

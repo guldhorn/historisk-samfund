@@ -1,7 +1,7 @@
 ---
 layout: arrangement
 title:  Kulturhistorisk Skrald. Museet i mudderet
-image: kulturhistorisk-skrald-arrangement.jpg
+image: /assets/kulturhistorisk-skrald-arrangement.jpg
 host: Ved Anders Sinding – Museumsinspektør, Gammel Estrup Danmarks Herregårdsmuseum
 location: Foredraget foregår på Dokk1, niv. 2.2, Aarhus Stadsarkiv
 time: Kl. 19.00

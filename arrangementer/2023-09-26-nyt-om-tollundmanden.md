@@ -1,7 +1,7 @@
 ---
 layout: arrangement
 title: Nyt om Tollundmanden. Bændelorm, fodvorter og lækker grød
-image: tollundmanden-arrangement.jpg
+image: /assets/tollundmanden-arrangement.jpg
 host: Ved Nina Helt Nielsen, Forskningschef, Museum Silkeborg
 location: Foredraget foregår på Dokk1, niv. 2.2, Aarhus Stadsarkiv
 time: Kl. 19.00

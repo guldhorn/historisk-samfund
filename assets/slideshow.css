@@ -1,7 +1,7 @@
 .slider-wrapper {
   /* margin: 1rem; */
   margin-top: -1rem; /* countering .page-content's margin-top */
-  height: 23em;
+  /* height: 23em; */
   position: relative;
   overflow: hidden;
 }
@@ -32,6 +32,7 @@
 .slide-arrow {
   position: absolute;
   display: flex;
+  z-index: 1;
   top: 0;
   bottom: 0;
   margin: auto;
@@ -75,9 +76,10 @@
     bottom: 0;
     left: 0;
     padding: 1.5em;
+    padding-left: 2em;
     color: #4a4a49;
     background-color: white;
-    opacity: .9;
+    opacity: .8;
     max-width: 30em;
   }
   .slide-title {
