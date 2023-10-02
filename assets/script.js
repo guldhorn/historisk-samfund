@@ -24,9 +24,15 @@ function generatePagination(result) {
     // if no next_url and "start" on first page, return
     if (!(result.previous || result.next)) return '';
 
+    // if (result.previous) {
+    //     let href_prev = document.location.pathname + "?" + result.previous;
+    // }
+    // if (result.next) {
+    //     let href_next = document.location.pathname + "?" + result.next;
+    // }
     return `<div class="results-pagination">
-        <a id="prev-link" ${result.previous ? "class='pagination-link 'href='/artikler?" + result.previous + "'" : "class='pagination-link-inactive'"} title="Gå til forrige side med søgeresultater">Forrige side</a>
-        <a id="next-link" ${result.next ? "class='pagination-link' href='/artikler?" + result.next + "'" : "class='pagination-link-inactive'"} title="Gå til næste side med søgeresultater">Næste side</a>
+        <a id="prev-link" ${result.previous ? "class='pagination-link 'href='" + document.location.pathname + "?" + result.previous + "'" : "class='pagination-link-inactive'"} title="Gå til forrige side med søgeresultater">Forrige side</a>
+        <a id="next-link" ${result.next ? "class='pagination-link' href='" + document.location.pathname + "?" + result.next + "'" : "class='pagination-link-inactive'"} title="Gå til næste side med søgeresultater">Næste side</a>
         </div>`;
 }
 
