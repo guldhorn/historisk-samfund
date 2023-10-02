@@ -47,7 +47,7 @@ function populateSearchform(params) {
 // On 'DOMContentLoaded', tjek om du er på søgesiden, og om der er søge-parametre i url'en
 function processPage() {
     // if not on the searchpage or no query_params, just return
-    if (document.location.pathname !== "/artikler" || !document.location.search) {
+    if (!document.location.pathname.endsWith("/artikler") || !document.location.search) {
         return
     }
 
