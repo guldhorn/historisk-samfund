@@ -410,6 +410,34 @@ input {
 }
 
 /****************/
+/* Teasers      */
+/****************/
+.teaser-wrapper {
+    padding-top: 2em;
+}
+.teaser-image img {
+    width: 100%;
+    /* max-height: 500px; */
+    object-fit: cover;
+}
+
+@media (min-width: 40em) {
+    .teaser {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1.2em;
+        justify-content: space-between;
+        padding-bottom: 2em;
+    }
+    .teaser-image {
+        width: 50%;
+    }
+    .teaser-textbox {
+        width: 50%;
+    }
+}
+
+/****************/
 /* Arrangements */
 /****************/
 .arrangement {

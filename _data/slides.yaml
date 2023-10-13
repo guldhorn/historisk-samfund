@@ -2,8 +2,8 @@
 # The slides are shown in this order when the page is loaded
 
 # For each slide you have to define the following:
-# page_url: link to the markdown (.md) file of the page. Leave out the .md-extension
-# image_url: link to the image-file. The image-file should be 1024px wide and 400px high
+# page_url: the url that the link should point
+# image_url: relative link to the image-file. The image-file should be 1024px wide and 400px high
 # image_alt: the text to show when hovering the mouse over the image
 # title: the heading in the text-field which overlays the image
 # text: the text of the text-field
@@ -13,11 +13,13 @@
   image_alt: Foredrag om Tollundmanden
   title: Nyt om Tollundmanden. Bændelorm, fodvorter og lækker grød
   text: Tirsdag den 26. september 2023
+
 - page_url: /arrangementer/2023-11-08-kulturhistorisk-skrald
   image_url: /assets/kulturhistorisk-skrald-nyhed.jpg
   image_alt: Foredrag om kulturhistorisk skrald
   title: Kulturhistorisk skrald. Museet i mudderet (metaldekektor)
   text: Onsdag den 8. november 2023
+
 - page_url: /arrangementer/2023-11-27-om-livoe
   image_url: /assets/livoe-nyhed.jpg
   image_alt: Foredrag om Livø

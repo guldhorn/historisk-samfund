@@ -20,3 +20,18 @@ layout: default
   {% endfor %}
   </ul>
 </div>
+
+<div class="teaser-wrapper">
+  {% for teaser in site.data.teasers %}
+    <div class="teaser">
+      <div class="teaser-image">
+        <img src="{{ teaser.image_url | relative_url }}" alt="{{ teaser.image_alt }}">
+      </div>
+      <div class="teaser-textbox">
+        <p class="teaser-title">{{ teaser.title }}</p>
+        <p class="teaser-text">{{ teaser.text }}</p>
+        <a href="{{ teaser.page_url | relative_url }}">Læs mere...</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
