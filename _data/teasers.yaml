@@ -9,25 +9,25 @@
 # text: the text of the text-field
 
 - page_url: /foreningen
-  image_url: /assets/tollundmanden-nyhed.jpg
-  image_alt: Foredrag om Tollundmanden
+  image_url: /assets/foreningen_teaser.jpg
+  image_alt: Læs om foreningen
   title: Foreningen
   text: Historisk Samfund for Århus Stift fremmer interessen for Østjyllands lokalhistorie. Det sker ved udgivelse af årbøger, gennem foredrag om lokalhistoriske emner og ture til historiske udflugtsmål.
 
 - page_url: /aarboeger
-  image_url: /assets/kulturhistorisk-skrald-nyhed.jpg
-  image_alt: Foredrag om kulturhistorisk skrald
+  image_url: /assets/skriv-artikel_teaser.jpg
+  image_alt: Læs om hvordan du kan skrive artikler til vores årbøger
   title: Skriv artikel
   text: Vi udgiver hvert år artikler om områdets historie. Læs mere her, hvis du vil skrive en artikel til årbogen.
 
 - page_url: /aarboeger
-  image_url: /assets/kulturhistorisk-skrald-nyhed.jpg
-  image_alt: Foredrag om kulturhistorisk skrald
+  image_url: /assets/aarboeger_teaser.jpg
+  image_alt: Læs om vores årbøger
   title: Årbøger
   text: Læs artikler med afsæt i Århus-områdets historie og kultur. Artiklerne er skrevet af forskellige forfattere, og foreningen har en ambition om, at der er bidrag fra studerende.
 
 - page_url: /bliv-medlem
-  image_url: /assets/livoe-nyhed.jpg
-  image_alt: Foredrag om Livø
+  image_url: /assets/bliv-medlem_teaser.jpg
+  image_alt: Læs mere om hvordan du kan blive medlem af foreningen
   title: Bliv medlem
   text: Bliv medlem for 250 kr. om året. For kontingentet får du seks foredrag om året, en sommertur og foreningens årbog, som er fyldt med spændende og afvekslende artikler om Århus-områdets historie. 

@@ -3,10 +3,9 @@ layout: default
 title: Online artikler
 permalink: /artikler
 ---
-
-<p>Et væld af oplysninger om vores lokale historie ligger gemt og glemt i Historisk Samfund for Århus Stifts mange glimrende årbøger.
-Historisk Samfund for Århus Stift har digitaliseret Samfundets årbøger fra 1908 og 2014. 
-Du kan tilgå artiklerne her. Historisk Samfund for Århus Stift ønsker alle god fornøjelse.</p>
+<div>
+    <p>Et væld af oplysninger om vores lokale historie ligger gemt i Historisk Samfund for Århus Stifts mange glimrende årbøger. Foreningen har digitaliseret Samfundets årbøger fra 1908 og helt frem til 2014. Du kan tilgå artiklerne her. Historisk Samfund for Århus Stift ønsker alle god fornøjelse.</p>
+</div>
 
 <div class="searchform-container">
     <form id="searchform" method="get">
@@ -47,6 +46,7 @@ Du kan tilgå artiklerne her. Historisk Samfund for Århus Stift ønsker alle go
         <button type="submit" aria-label="Søg">Søg</button>
     </form>
 </div>
+
 <div class="results-container">
     <ul class="results-list">
     </ul>

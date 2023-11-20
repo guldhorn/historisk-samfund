@@ -1,0 +1,28 @@
+# These are the yearbook-images shown on the yearbook page
+# The books are shown in this order when the page is loaded
+
+# For each book you have to define the following:
+# image_front_url: relative link to the image-file. The image-file should be 600px wide and 400px high
+# image_front_alt: the text to show when hovering the mouse over the image
+# image_back_url: relative link to the image-file. The image-file should be 600px wide and 400px high
+# image_back_alt: the text to show when hovering the mouse over the image
+
+- image_front_url: /assets/aarbog_2014_f.jpg
+  image_front_alt: Læs om foreningen
+  image_back_url: /assets/aarbog_2014_b.jpg
+  image_back_alt: Læs om foreningen
+
+# - image_front_url: /assets/.jpg
+#   image_front_alt: Læs om foreningen
+#   image_back_url: /assets/.jpg
+#   image_back_alt: Læs om foreningen
+
+# - image_front_url: /assets/.jpg
+#   image_front_alt: Læs om foreningen
+#   image_back_url: /assets/.jpg
+#   image_back_alt: Læs om foreningen
+
+# - image_front_url: /assets/.jpg
+#   image_front_alt: Læs om foreningen
+#   image_back_url: /assets/.jpg
+#   image_back_alt: Læs om foreningen

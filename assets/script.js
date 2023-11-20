@@ -11,6 +11,12 @@ if (document.readyState === "loading") {
 } else {
     // `DOMContentLoaded` has already fired
     processPage();
+    var cards = document.querySelectorAll('.card');
+    [...cards].forEach((card) => {
+        card.addEventListener( 'click', function() {
+            card.classList.toggle('is-flipped');
+        });
+    });
 }
 
 // Generér {start} til {end} af {total}
