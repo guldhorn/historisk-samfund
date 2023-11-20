@@ -25,7 +25,9 @@ layout: default
   {% for teaser in site.data.teasers %}
     <div class="teaser">
       <div class="teaser-image">
-        <img src="{{ teaser.image_url | relative_url }}" alt="{{ teaser.image_alt }}">
+        <a href="{{ teaser.page_url | relative_url }}">
+          <img src="{{ teaser.image_url | relative_url }}" alt="{{ teaser.image_alt }}">
+        </a>
       </div>
       <div class="teaser-textbox">
         <p class="teaser-title">{{ teaser.title }}</p>

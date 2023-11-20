@@ -17,19 +17,11 @@ permalink: /aarboeger
 
 <div class="yearbook-list">
     {% for book in site.data.yearbooks %}
-    <div class="yearbook">
-        <div class="card">
-            <div class="card__face card__face--front" style="background-image:url({{ book.image_front_url }});">front</div>
-            <div class="card__face card__face--back" style="background-image:url({{ book.image_front_url }});">back</div>
-        </div>
-    </div>
-      <!-- <div class="book-image">
-        <img src="{{ book.image_url | relative_url }}" alt="{{ book.image_alt }}">
+    <div class="book">
+      <div class="card">
+          <div class="card__face card__face--front" style="background-image:url({{ book.image_front_url | relative_url }});">front</div>
+          <div class="card__face card__face--back" style="background-image:url({{ book.image_back_url | relative_url }});">back</div>
       </div>
-      <div class="book-textbox">
-        <p class="book-title">{{ book.title }}</p>
-        <p class="book-text">{{ book.text }}</p>
-        <a href="{{ book.page_url | relative_url }}">Læs mere...</a>
-      </div> -->
-  {% endfor %}
+    </div>
+    {% endfor %}
 </div>
