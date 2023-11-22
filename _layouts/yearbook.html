@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% assign year = page.name | replace: '.md', '' | to_integer %}
+
+{% for book in site.data.yearbooks %}
+    {% assign bookyear = book.url | split:'/' | last | to_integer %}
+    {% if bookyear == year %}
+        <div class="yearbook">
+            <div class="yearbook-front">
+                <img class="yearbook-image" src="{{ book.image_front_url | relative_url }}" alt="Årbogens forside"/>
+            </div>
+            <div class="yearbook-back">
+                <img class="yearbook-image" src="{{ book.image_back_url | relative_url }}" alt="Årbogens indholdsfortegnelse"/>
+            </div>
+        </div>
+        {% break %}
+    {% endif %}
+{% endfor %}
+
