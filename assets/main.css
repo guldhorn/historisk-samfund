@@ -493,6 +493,7 @@ input {
     max-height: 500px;
     object-fit: cover;
 }
+
 /* from /arrangments */
 .future-arrangements {
     margin-top: 1.5em;
@@ -561,56 +562,49 @@ input {
     }
 }
 
-/************/
-/* YEARBOOK */
-/************/
+/*****************/
+/* YEARBOOK-LIST */
+/*****************/
 .yearbook-list {
-        display: grid;
-        grid-template-columns: minmax(300px, 480px);
-        /* grid-template-rows: 100vh; */
-        grid-gap: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5em;
+    align-items: start; /* Align items to the top of each row */
+    margin: 2em 0;
 }
-.book {
-    display: inline-block;
-    width: 200px;
-    height: 260px;
-    margin: 40px 0;
-    /* perspective: 600px; */
-  }
-  
-.card {
-    position: relative;
-    width: 200px;
-    height: 100px;
-    cursor: pointer;
-    transform-style: preserve-3d;
-    transform-origin: center right;
-    transition: transform 1s;
-  }
-  
-.card.is-flipped {
-    transform: translateX(-100%) rotateY(-180deg);
-  }
-  
-.card__face {
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    /* line-height: 260px; */
-    /* color: white; */
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-    backface-visibility: hidden;
-  }
-  
-.card__face--front {
-    font-size: inherit;
+.yearbook-list div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card.is-flipped .card__face--front {
-    z-index: -1;
+.yearbook-list img {
+    width: 100%; /* Adjust to fill the container */
+    height: auto;
+    display: block;
+    margin: auto;
 }
-.card__face--back {
-    transform: rotateY(180deg);
-  }
-  
+
+/*******************/
+/* SINGLE YEARBOOK */
+/*******************/
+.yearbook {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+@media (min-width: 40em) {
+    .yearbook {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1.2em;
+        justify-content: space-between;
+        /* border-bottom: 1px solid rgb(222, 222, 222); */
+    }
+    .yearbook-front,
+    .yearbook-back {
+        width: 50%;
+    }
+}
+.yearbook-image {
+    width: 100%;
+    padding-bottom: 2em;
+}
