@@ -8,6 +8,9 @@ Historisk Samfund for Århus Stift har til formål at fremme interessen for Øst
 
 Historisk Samfund blev stiftet i 1907, og er dermed en af landets ældste lokalhistoriske foreninger. Foreningens ældre årbøger er blevet digitaliseret og udgør i dag et væsentligt bidrag til forståelsen af vores lokale historie. 
 
+Et medlemskab af foreningen koster 250 kr. om året. Det kan betales ved en bankoverførsel eller ved betaling via mobilepay. Opkrævningen ligger sammen med årbogen, når den uddeles. Har du fået betalingsoplysningerne væk, kan de ses her. 
+
+
 
 ### Bestyrelsen
 **Peter Mouritsen (Formand)**<br>
