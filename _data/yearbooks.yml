@@ -3,8 +3,8 @@
 
 # For each book you have to define the following:
 # url: relative url-path to the page (without the .md-extension)
-# image_front_url: relative url to the image-file. The image-file should be 600px wide and 400px high
-# image_back_url: relative url to the image-file. The image-file should be 600px wide and 400px high
+# image_front_url: relative url to the image-file. The image-file should be 400px wide and 600px high
+# image_back_url: relative url to the image-file. The image-file should be 400px wide and 600px high
 
 - url: /aarboeger/2014
   image_front_url: /assets/aarbog_2014_f.jpg
