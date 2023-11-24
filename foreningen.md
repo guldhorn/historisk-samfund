@@ -8,6 +8,14 @@ Historisk Samfund for Århus Stift har til formål at fremme interessen for Øst
 
 Historisk Samfund blev stiftet i 1907, og er dermed en af landets ældste lokalhistoriske foreninger. Foreningens ældre årbøger er blevet digitaliseret og udgør i dag et væsentligt bidrag til forståelsen af vores lokale historie. 
 
+#### Kontingent
+Et medlemskab af foreningen koster 250 kr. om året. Det kan betales ved en bankoverførsel eller ved betaling via mobilepay. Opkrævningen ligger sammen med årbogen, når den uddeles. Har du fået betalingsoplysningerne væk, er du velkommen til at kontakte foreningens kasserer pr. mail. 
+
+#### Udmeldelse
+Ønsker du at melde dig ud af foreningen skal det i henhold til §3 i foreningens vedtægter ske senest 1. oktober. Ved udmeldelse skal du have betalt alle skyldige restancer. 
+
+
+
 ### Bestyrelsen
 **Peter Mouritsen (Formand)**<br>
 Thyrasgade 7<br>
@@ -26,7 +34,7 @@ Telefon: 2920 3964<br>
 Mail: thkri@aarhus.dk
 
 #### Bestyrelsesmedlemmer
-*Berit Guldmann Andersen*<br>
+*Berit Guldmann Hornstrup*<br>
 Mail: bghornstrup@hotmail.com
 
 *Louise Højbjerg Jacobsen*<br>
@@ -44,6 +52,7 @@ Mail: vibbeoglars@mail.dk
  
 *Jacob Knudsen*<br>
 Mail: gajev1903@gmail.com
+
 
 ### Vedtægter for Historisk Samfund for Århus Stift
 **§ 1**
