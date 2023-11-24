@@ -8,20 +8,22 @@
 # title: the heading in the text-field which overlays the image
 # text: the text of the text-field
 
+- page_url: /arrangementer/2023-11-27-om-livoe
+  image_url: /assets/livoe-nyhed.jpg
+  image_alt: Foredrag om Livø
+  title: Om Livø. 50 år på anstalten
+  text: Mandag den 27. november 2023
+  
 - page_url: /arrangementer/2024-01-30-skibsaetning-hoej-stene
   image_url: /assets/Høje Stene_slider.jpg
   image_alt: Foredrag om skibsætningen Høj Stene
   title: Skibsætningen Høj Stene og generalforsamling
   text: Tirsdag den 30. janauar 2024
 
-- page_url: /arrangementer/2023-11-08-kulturhistorisk-skrald
-  image_url: /assets/kulturhistorisk-skrald-nyhed.jpg
-  image_alt: Foredrag om kulturhistorisk skrald
-  title: Kulturhistorisk skrald. Museet i mudderet (metaldekektor)
-  text: Onsdag den 8. november 2023
+- page_url: /arrangementer/2024-03-12-kolindsund-soen-der-deler-vandene
+  image_url: /assets/kolindsund-slider.jpg
+  image_alt: Foredrag om dræningen af Kolindsøen
+  title: Kolindsund – søen, der deler vandene
+  text: Tirsdag den 12. marts 2024
 
-- page_url: /arrangementer/2023-11-27-om-livoe
-  image_url: /assets/livoe-nyhed.jpg
-  image_alt: Foredrag om Livø
-  title: Om Livø. 50 år på anstalten
-  text: Mandag den 27. november 2023
+
