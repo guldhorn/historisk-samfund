@@ -9,7 +9,7 @@ For kontingentet får du foreningens årbog, som er fyldt med spændende og afve
 
 <form id="contactform" action="https://api.staticforms.xyz/submit" method="post">
     <input type="text" name="honeypot" style="display: none;">
-    <input type="hidden" name="accessKey" value="80cb6273-c24d-4f66-a336-2abd77c8923b">
+    <input type="hidden" name="accessKey" value="2c0293be-d540-4b7d-a254-c026a8acc2e7">
     <input type="hidden" name="$Formular" value="Bliv medlem">
     <!-- Specify @ as reply to value if you want it to be customers email -->
     <input type="hidden" name="replyTo" value="@">

@@ -13,14 +13,14 @@ if (document.readyState === "loading") {
     processPage();
 }
 
-function cardFlip() {
-    let cards = document.querySelectorAll('.card');
-    cards.forEach((card) => {
-        card.addEventListener( 'click', function() {
-            card.classList.toggle('is-flipped');
-        });
-    });
-}
+// function cardFlip() {
+//     let cards = document.querySelectorAll('.card');
+//     cards.forEach((card) => {
+//         card.addEventListener( 'click', function() {
+//             card.classList.toggle('is-flipped');
+//         });
+//     });
+// }
 // Generér {start} til {end} af {total}
 function generateResultCounters(result) {
     let end = Math.min(result.offset + result.size, result.total);
@@ -54,9 +54,9 @@ function populateSearchform(params) {
 
 // On 'DOMContentLoaded', tjek om du er på søgesiden, og om der er søge-parametre i url'en
 function processPage() {
-    if(document.location.pathname.endsWith("/aarboeger")) {
-        cardFlip();
-    }
+    // if(document.location.pathname.endsWith("/aarboeger")) {
+    //     cardFlip();
+    // }
 
     // if not on the searchpage or no query_params, just return
     if (!document.location.pathname.endsWith("/artikler") || !document.location.search) {
