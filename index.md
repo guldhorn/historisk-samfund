@@ -30,7 +30,7 @@ layout: default
         </a>
       </div>
       <div class="teaser-textbox">
-        <p class="teaser-title">{{ teaser.title }}</p>
+        <p class="teaser-title" style="font-weight:bold;">{{ teaser.title }}</p>
         <p class="teaser-text">{{ teaser.text }}</p>
         <a href="{{ teaser.page_url | relative_url }}">Læs mere...</a>
       </div>
