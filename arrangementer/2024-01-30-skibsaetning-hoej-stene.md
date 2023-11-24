@@ -1,11 +1,5 @@
 ---
 layout: arrangement
-title: Skibsætningen Høj Stene + generalforsamling
-image: /assets/Høje Stene_arrangementsside.jpg
-host: Ved Jens Jeppesen, museumsinspektør, Moesgård Museum
-location: Foredraget foregår på Dokk1, niv. 2.2, Aarhus Stadsarkiv
-time: Kl. 19.00
-price: Gratis for medlemmer. 50 kr. for ikke-medlemmer (uden stemmeret ved generalforsamling)
 ---
 
 Ved Gudenåen i nærheden af Kongensbro fandtes engang et imponerende gravmonument rejst i jernalderen omkring år 600 efter Kristi fødsel. Monumentet var en såkaldt skibssætning, idet formen symboliserede et skib. Det var over 80 meter langt og placeret mellem to gravhøje.
