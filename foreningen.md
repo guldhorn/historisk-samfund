@@ -10,7 +10,8 @@ Historisk Samfund blev stiftet i 1907, og er dermed en af landets ældste lokalh
 
 #### Kontingent
 Et medlemskab af foreningen koster 250 kr. om året. For kontingentet får du foreningens årbog (udleveres ved årets udgang), som er fyldt med spændende og afvekslende artikler om vor egns historie. Du får desuden mulighed for at deltage i en række spændende foredrag arrangeret af Historisk Samfund for Århus Stift.
-Medlemsskabet kan betales ved en bankoverførsel eller ved betaling via mobilepay. Opkrævningen ligger sammen med årbogen, når den uddeles. Har du fået betalingsoplysningerne væk, er du velkommen til at kontakte foreningens kasserer pr. mail. 
+
+Medlemsskabet kan betales ved en bankoverførsel eller ved betaling via mobilepay. Opkrævningen ligger sammen med årbogen, når den uddeles. Har du fået betalingsoplysningerne væk, er du velkommen til at kontakte foreningen pr. mail. 
 
 
 #### Udmeldelse
