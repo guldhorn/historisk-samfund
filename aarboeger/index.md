@@ -10,7 +10,7 @@ title: Årbøger
     </div>
     <div>
         <p>Hvis du har lyst til at bidrage til årbogen, kan du <a href="{{ 'kontakt' | relative_url }}">kontakte os via kontaktformularen</a></p>
-        <p>Se vejledning til forfattere. (link til vejledning)</p>
+        <p><a href="{{ 'Forfattervejledning.pdf' | relative_url }}">Se vejledningen til forfattere</a></p>
     </div>
 </div>
 
