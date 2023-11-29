@@ -22,7 +22,7 @@ For kontingentet får du foreningens årbog, som er fyldt med spændende og afve
         <input type="text" id="email" name="email" placeholder="Email" required>
     </label>
     <label for="address">
-        <input type="text" id="address" name="address" placeholder="Adresse" required>
+        <input type="text" id="address" name="$address" placeholder="Adresse" required>
     </label>
     <label for="message">
         <textarea name="message" id="message" placeholder="Eventuelle kommentarer..."></textarea>
