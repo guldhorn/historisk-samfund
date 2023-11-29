@@ -8,12 +8,7 @@
 # title: the heading in the text-field which overlays the image
 # text: the text of the text-field
 
-- page_url: /arrangementer/2023-11-27-om-livoe
-  image_url: /assets/livoe-nyhed.jpg
-  image_alt: Foredrag om Livø
-  title: Om Livø. 50 år på anstalten
-  text: Mandag den 27. november 2023
-  
+ 
 - page_url: /arrangementer/2024-01-30-skibsaetning-hoej-stene
   image_url: /assets/Høje Stene_slider.jpg
   image_alt: Foredrag om skibsætningen Høj Stene
