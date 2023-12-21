@@ -20,7 +20,7 @@ if (contactform) {
     contactform.addEventListener('formdata', (e) => {
         let errorTxt = contactform.querySelector("#errorDiv");
         // localStorage.clear(); // clear before fetching new results
-        const formData = e.originalEvent.formData; 
+        const formData = e.formData; 
         // let formData = new FormData(contactform);
         if (!formData.get("honeypot")) {
             errorTxt.innerHTML = "Du skal angive din email-adresse";
