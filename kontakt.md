@@ -8,8 +8,7 @@ Vil du i kontakt med Historisk Samfund for Århus Stift kan du udfylde nedenstå
 
 <form id="contactform" action="" method="post">
     <input type="text" id="email" name="email">
-    <!-- Thomas: 2c0293be-d540-4b7d-a254-c026a8acc2e7 -->
-    <input type="hidden" name="accessKey" value="80cb6273-c24d-4f66-a336-2abd77c8923b">
+    <input type="hidden" name="accessKey" value="2c0293be-d540-4b7d-a254-c026a8acc2e7">
     <input type="hidden" name="$Formular" value="Kontakt os">
     <!-- Specify @ as reply to value if you want it to be customers email -->
     <input type="hidden" name="replyTo" value="@">
