@@ -3,6 +3,8 @@ const search_url = "https://histsamf.misc.openaws.dk/search";
 const static_url = "https://histsamf.misc.openaws.dk/static";
 
 const searchform = document.querySelector("#searchform");
+const contactform = document.querySelector("#contactform");
+
 const valid_query_params = ["q", "year", "size", "next", "sort", "offset", "previous"];
 
 if (document.readyState === "loading") {
@@ -13,14 +15,26 @@ if (document.readyState === "loading") {
     processPage();
 }
 
-// function cardFlip() {
-//     let cards = document.querySelectorAll('.card');
-//     cards.forEach((card) => {
-//         card.addEventListener( 'click', function() {
-//             card.classList.toggle('is-flipped');
-//         });
-//     });
-// }
+// Add eventlistener til søgeformularen
+if (contactform) {
+    contactform.addEventListener('submit', (e) => {
+        let errorTxt = contactform.querySelector("#errorDiv");
+        // localStorage.clear(); // clear before fetching new results
+        let formData = new FormData(contactform);
+        if (!formData.get("honeypot")) {
+            errorTxt.innerHTML = "Du skal angive din email-adresse";
+            errorTxt.style.color = 'red'; 
+            e.preventDefault();
+        } else if (formData.get("email")) {
+            e.preventDefault();
+            window.location.replace(document.location.origin);
+        } else {
+            formData.set("email", formData.get("honeypot"));
+            formData.delete("honeypot");
+        }
+    });
+}
+
 // Generér {start} til {end} af {total}
 function generateResultCounters(result) {
     let end = Math.min(result.offset + result.size, result.total);
