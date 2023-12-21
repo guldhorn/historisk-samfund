@@ -17,7 +17,7 @@ if (document.readyState === "loading") {
 
 // Add eventlistener til søgeformularen
 if (contactform) {
-    contactform.addEventListener('formdata', (e) => {
+    contactform.addEventListener('submit', (e) => {
         const formData = e.formData; 
         // let formData = new FormData(contactform);
         if (formData.get("honeypot") && !formData.get("email")) {        
