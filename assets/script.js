@@ -17,25 +17,26 @@ if (document.readyState === "loading") {
 
 // Add eventlistener til søgeformularen
 if (contactform) {
-    contactform.addEventListener('submit', (e) => {
+    contactform.addEventListener('formdata', (e) => {
         let errorTxt = contactform.querySelector("#errorDiv");
         // localStorage.clear(); // clear before fetching new results
-        let formData = new FormData(contactform);
+        const formData = e.originalEvent.formData; 
+        // let formData = new FormData(contactform);
         if (!formData.get("honeypot")) {
             errorTxt.innerHTML = "Du skal angive din email-adresse";
             errorTxt.style.color = 'red'; 
+            e.preventDefault();
         } else if (formData.get("email")) {
             window.location.replace(document.location.origin);
         } else {
             formData.set("email", formData.get("honeypot"));
             formData.delete("honeypot");
             console.log(formData);         
-            const response = fetch("https://api.staticforms.xyz/submit", {
-                method: "POST",
-                body: formData,
-            });
+            // fetch("https://api.staticforms.xyz/submit", {
+            //     method: "POST",
+            //     body: formData,
+            // });
         }
-        e.preventDefault();
     });
 }
 
