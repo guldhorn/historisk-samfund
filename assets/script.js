@@ -31,6 +31,7 @@ if (contactform) {
         } else {
             formData.set("email", formData.get("honeypot"));
             formData.delete("honeypot");
+            console.log(formData);
         }
     });
 }
