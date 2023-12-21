@@ -26,6 +26,7 @@ if (contactform) {
             errorTxt.innerHTML = "Du skal angive din email-adresse";
             errorTxt.style.color = 'red'; 
             e.preventDefault();
+            window.history.back();
         } else if (formData.get("email")) {
             window.location.replace(document.location.origin);
         } else {
