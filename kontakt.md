@@ -6,7 +6,7 @@ permalink: /kontakt
 
 Vil du i kontakt med Historisk Samfund for Århus Stift kan du udfylde nedenstående formular eller sende en mail til foreningens digitale postkasse.
 
-<form id="contactform" action="https://api.staticforms.xyz/submit" method="post">
+<form id="contactform" action="" method="post">
     <input type="text" id="email" name="email">
     <!-- Thomas: 2c0293be-d540-4b7d-a254-c026a8acc2e7 -->
     <input type="hidden" name="accessKey" value="80cb6273-c24d-4f66-a336-2abd77c8923b">

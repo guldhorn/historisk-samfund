@@ -24,15 +24,18 @@ if (contactform) {
         if (!formData.get("honeypot")) {
             errorTxt.innerHTML = "Du skal angive din email-adresse";
             errorTxt.style.color = 'red'; 
-            e.preventDefault();
         } else if (formData.get("email")) {
-            e.preventDefault();
             window.location.replace(document.location.origin);
         } else {
             formData.set("email", formData.get("honeypot"));
             formData.delete("honeypot");
-            console.log(formData);
+            console.log(formData);         
+            const response = fetch("https://api.staticforms.xyz/submit", {
+                method: "POST",
+                body: formData,
+            });
         }
+        e.preventDefault();
     });
 }
 
