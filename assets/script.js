@@ -15,25 +15,78 @@ if (document.readyState === "loading") {
     processPage();
 }
 
+// function submitContactform(event) {
+//     // event.preventDefault();
+//     const contactform = document.querySelector("#contactform");
+//     const elements = contactform.elements;
+//     const formData = new FormData();
+//     for (let i = 0; i < elements.length; i++) {
+//         if (elements[i].value) {
+//             formData.append(elements[i].name, elements[i].value);
+//         }
+//     }
+//     // console.log("original formdata:");
+//     // for (const pair of formData.entries()) {
+//     //     console.log(`${pair[0]}, ${pair[1]}`);
+//     // }
+
+//     if ( formData.get("honeypot") && !formData.get("email") ) {        
+//         formData.set("email", formData.get("honeypot"));
+//         formData.delete("honeypot");
+//         console.log("all ok. processed formdata:");
+//         for (const pair of formData.entries()) {
+//             console.log(`${pair[0]}, ${pair[1]}`);
+//         }
+//         fetch('https://api.staticforms.xyz/submit', {
+//             method: 'POST',
+//             body: formData,
+//         })
+//         .then(res => res.json()) // expecting a json response
+//         .then(json => {
+//            console.log(json);
+//         //    document.location.pathname = "/kvittering"
+//         });
+//     } else if ( !formData.get("honeypot") ) {
+//         let errorTxt = contactform.querySelector("#errorDiv");
+//         errorTxt.innerHTML = "Du skal angive din email-adresse";
+//         errorTxt.style.color = 'red';
+//         console.log("no email. processed formdata");
+//         for (const pair of formData.entries()) {
+//             console.log(`${pair[0]}, ${pair[1]}`);
+//         }
+
+//     } else if ( formData.get("email") ) {
+//         console.log("honeypot has value!");
+//         for (const pair of formData.entries()) {
+//             console.log(`${pair[0]}, ${pair[1]}`);
+//         }
+//         window.location.replace(document.location.origin);
+//     }
+
+//     // event.preventDefault();
+// }
+
 // Add eventlistener til søgeformularen
 if (contactform) {
     contactform.addEventListener('submit', (e) => {
-        const formData = e.formData; 
-        // let formData = new FormData(contactform);
-        if (formData.get("honeypot") && !formData.get("email")) {        
-            formData.set("email", formData.get("honeypot"));
-            formData.delete("honeypot");
-            console.log(formData);
-        } else if (!formData.get("honeypot")) {
+        const honeypot = contactform.querySelector("#honeypot");
+        const email = contactform.querySelector("#email");
+        console.log("honeypot: " + honeypot.value);
+        console.log("email: " + email.value);
+        if (!honeypot.value) {
+            e.preventDefault();
             let errorTxt = contactform.querySelector("#errorDiv");
             errorTxt.innerHTML = "Du skal angive din email-adresse";
             errorTxt.style.color = 'red';
             return false;
-            // e.preventDefault();
-            // window.history.back();
-        } else if (formData.get("email")) {
+        }
+        if (email.value) {
+            e.preventDefault();
             window.location.replace(document.location.origin);
         }
+        email.value = honeypot.value;
+        honeypot.remove();
+        console.log("new email: " + email.value);
     });
 }
 
