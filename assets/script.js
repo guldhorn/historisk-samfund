@@ -3,7 +3,7 @@ const search_url = "https://histsamf.misc.openaws.dk/search";
 const static_url = "https://histsamf.misc.openaws.dk/static";
 
 const searchform = document.querySelector("#searchform");
-const contactform = document.querySelector("#contactform");
+const contactform = document.querySelector("#contactform_old");
 
 const valid_query_params = ["q", "year", "size", "next", "sort", "offset", "previous"];
 
@@ -67,28 +67,28 @@ if (document.readyState === "loading") {
 // }
 
 // Add eventlistener til søgeformularen
-if (contactform) {
-    contactform.addEventListener('submit', (e) => {
-        const honeypot = contactform.querySelector("#honeypot");
-        const email = contactform.querySelector("#email");
-        console.log("honeypot: " + honeypot.value);
-        console.log("email: " + email.value);
-        if (!honeypot.value) {
-            e.preventDefault();
-            let errorTxt = contactform.querySelector("#errorDiv");
-            errorTxt.innerHTML = "Du skal angive din email-adresse";
-            errorTxt.style.color = 'red';
-            return false;
-        }
-        if (email.value) {
-            e.preventDefault();
-            window.location.replace(document.location.origin);
-        }
-        email.value = honeypot.value;
-        honeypot.remove();
-        console.log("new email: " + email.value);
-    });
-}
+// if (contactform) {
+//     contactform.addEventListener('submit', (e) => {
+//         const honeypot = contactform.querySelector("#honeypot");
+//         const email = contactform.querySelector("#email");
+//         console.log("honeypot: " + honeypot.value);
+//         console.log("email: " + email.value);
+//         if (!honeypot.value) {
+//             e.preventDefault();
+//             let errorTxt = contactform.querySelector("#errorDiv");
+//             errorTxt.innerHTML = "Du skal angive din email-adresse";
+//             errorTxt.style.color = 'red';
+//             return false;
+//         }
+//         if (email.value) {
+//             e.preventDefault();
+//             window.location.replace(document.location.origin);
+//         }
+//         email.value = honeypot.value;
+//         honeypot.remove();
+//         console.log("new email: " + email.value);
+//     });
+// }
 
 // Generér {start} til {end} af {total}
 function generateResultCounters(result) {

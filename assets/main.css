@@ -264,13 +264,13 @@ input {
         box-shadow: inset 0 0 0 1px #007c89;
     }
 }
-input[name="email"] {
+/* input[name="email"] {
     height: 0px;
     width: 0px;
     padding: 0px;
     margin: 0px;
     border: 0px;
-}
+} */
 
 /***********/
 /* Buttons */

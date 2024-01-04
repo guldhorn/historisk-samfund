@@ -6,27 +6,15 @@ permalink: /kontakt
 
 Vil du i kontakt med Historisk Samfund for Århus Stift kan du udfylde nedenstående formular eller sende en mail til foreningens digitale postkasse.
 
-<form id="contactform" action="https://api.staticforms.xyz/submit" method="post">
-<!-- <form id="contactform" method="post" onsubmit="submitContactform(event)"> -->
-    <input type="hidden" name="accessKey" value="3ed6b0fb-cb0c-4eb8-b675-0437fddcde8a">
-    <!-- <input type="hidden" name="accessKey" value="2c0293be-d540-4b7d-a254-c026a8acc2e7"> -->
-    <input type="hidden" name="$Formular" value="Kontakt os">
-    <!-- Specify @ as reply to value if you want it to be customers email -->
-    <input type="hidden" name="replyTo" value="@">
-    <input type="hidden" name="redirectTo" value="{{ site.url }}/kvittering">
-    <input type="text" id="email" name="email">
-    <label for="name">
-        <input type="text" id="name" name="name" placeholder="Navn" required>
-    </label>
-    <div id="errorDiv"></div>
-    <label for="honeypot">
-        <input type="text" id="honeypot" name="honeypot" placeholder="Email">
-    </label>
-    <label for="subject">
-        <input type="text" id="subject" name="subject" placeholder="Emne" required>
-    </label>
-    <label for="message">
-        <textarea name="message" id="message" placeholder="Skriv besked..." required></textarea>
-    </label>
-    <button type="submit" aria-label="Send beskeden">Send</button>
+<form id="contactform" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="b90d20d9-9f0f-4b80-8b82-015416aa2683">
+    <input type="hidden" name="redirect" value="{{ site.url }}/kvittering">
+    <input type="hidden" name="from_name" value="Historisk Samfund - Kontakt os">
+    <label for="name"><input type="text" name="name" placeholder="Navn" required></label>
+    <label for="email"><input type="email" name="email" placeholder="Email" required></label>
+    <label for="subject"><input type="text" name="subject" placeholder="Emne" required></label>
+    <label for="message"><textarea name="message" placeholder="Skriv besked..." required></textarea></label>
+    <div class="h-captcha" data-captcha="true"></div>
+    <button type="submit"aria-label="Send beskeden">Send</button>
 </form>
+<script src="https://web3forms.com/client/script.js" async defer></script>
