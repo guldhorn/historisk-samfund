@@ -15,6 +15,6 @@ Vil du i kontakt med Historisk Samfund for Århus Stift kan du udfylde nedenstå
     <label for="subject"><input type="text" name="subject" placeholder="Emne" required></label>
     <label for="message"><textarea name="message" placeholder="Skriv besked..." required></textarea></label>
     <div class="h-captcha" data-captcha="true"></div>
-    <button type="submit"aria-label="Send beskeden">Send</button>
+    <button type="submit" aria-label="Send beskeden">Send</button>
 </form>
 <script src="https://web3forms.com/client/script.js" async defer></script>
