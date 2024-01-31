@@ -40,8 +40,8 @@ Mail: thkri@aarhus.dk
 *Berit Guldmann Hornstrup*<br>
 Mail: bghornstrup@hotmail.com
 
-*Louise Højbjerg Jacobsen*<br>
-Mail: louisehojbjerg@gmail.com
+*Mikkel Hoffmann Clausen*<br>
+Mail: mc@roedkilde-gym.dk
 
 *Martin Philipsen Mølgaard*<br>
 Mail: mpm@museumskanderborg.dk
