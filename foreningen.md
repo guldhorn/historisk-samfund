@@ -32,7 +32,8 @@ Skejbyparken 360, st 5<br>
 Mail: mathilde_hoeberg@hotmail.dk
 
 **Thomas Norskov Kristensen (Kasserer)**<br>
-Hejredalsvej 106, 8220<br>
+Hejredalsvej 106<br>
+8220 Brabrand<br>
 Telefon: 2920 3964<br>
 Mail: thkri@aarhus.dk
 
