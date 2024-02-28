@@ -4,18 +4,17 @@ title: Om foreningen
 permalink: /foreningen
 ---
 
-Historisk Samfund for Århus Stift har til formål at fremme interessen for Østjyllands lokalhistorie og udbrede kendskabet til områdets historiske begivenheder og udvikling over et bredt felt. Det sker ved udgivelse af årbøger, foredrag om vor egns lokale historie samt ekskursioner til forskellige historiske udflugtsmål.
+Historisk Samfund for Århus Stift har til formål at fremme interessen for Østjyllands lokalhistorie. Det sker ved udgivelse af årbøger, foredrag om områdets lokale historie samt ekskursioner til historiske udflugtsmål.
 
 Historisk Samfund blev stiftet i 1907, og er dermed en af landets ældste lokalhistoriske foreninger. Foreningens ældre årbøger er blevet digitaliseret og udgør i dag et væsentligt bidrag til forståelsen af vores lokale historie. 
 
 #### Kontingent
-Et medlemskab af foreningen koster 250 kr. om året. For kontingentet får du foreningens årbog (udleveres ved årets udgang), som er fyldt med spændende og afvekslende artikler om vor egns historie. Du får desuden mulighed for at deltage i en række spændende foredrag arrangeret af Historisk Samfund for Århus Stift.
+Et medlemskab af foreningen koster 250 kr. om året. For kontingentet får du mulighed for at deltage i en række spændende foredrag, og ved årets udgang får du foreningens årbog, som er fyldt med afvekslende artikler om Århus' og Østjyllands historie. 
 
-Medlemsskabet kan betales ved en bankoverførsel eller ved betaling via mobilepay. Opkrævningen ligger sammen med årbogen, når den uddeles. Har du fået betalingsoplysningerne væk, er du velkommen til at kontakte foreningen pr. mail. 
-
+Medlemskabet kan betales ved en bankoverførsel eller ved betaling via MobilePay. Opkrævningen ligger sammen med årbogen, når den uddeles. Har du mistet betalingsoplysningerne, er du velkommen til at kontakte foreningen på post@historisk-samfund-aarhus.dk 
 
 #### Udmeldelse
-Ønsker du at melde dig ud af foreningen skal det i henhold til §3 i foreningens vedtægter ske senest 1. oktober. Ved udmeldelse skal du have betalt alle skyldige restancer. 
+Ønsker du at melde dig ud af foreningen, skal det i henhold til §3 i foreningens vedtægter ske senest 1. oktober. Ved udmeldelse skal du have betalt alle restancer. 
 
 
 
@@ -29,6 +28,7 @@ Mail: peter.mouritsen@gmail.com
 **Mathilde Høberg (Næstformand)**<br>
 Skejbyparken 360, st 5<br>
 8200 Aarhus N<br>
+Telefon: 2322 9362<br>
 Mail: mathilde_hoeberg@hotmail.dk
 
 **Thomas Norskov Kristensen (Kasserer)**<br>
