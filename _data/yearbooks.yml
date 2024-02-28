@@ -6,10 +6,6 @@
 # image_front_url: relative url to the image-file. The image-file should be 400px wide and 600px high
 # image_back_url: relative url to the image-file. The image-file should be 400px wide and 600px high
 
-- url: /aarboeger/2014
-  image_front_url: /assets/aarbog_2014_f.jpg
-  image_back_url: /assets/aarbog_2014_b.jpg
-
 - url: /aarboeger/2015
   image_front_url: /assets/aarbog_2015_f.jpg
   image_back_url: /assets/aarbog_2015_b.jpg
