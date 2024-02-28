@@ -6,7 +6,7 @@ permalink: /bliv-medlem
 
 Et medlemskab af Historisk Samfund for Århus Stift koster 250 kr. om året. 
 
-Et medlemskab af foreningen koster 250 kr. om året. For kontingentet får du mulighed for at deltage i en række spændende foredrag, og ved årets udgang får du foreningens årbog, som er fyldt med afvekslende artikler om Århus’ og Østjyllands historie.
+For kontingentet får du mulighed for at deltage i en række spændende foredrag, og ved årets udgang får du foreningens årbog, som er fyldt med afvekslende artikler om Århus’ og Østjyllands historie.
 
 <form id="contactform" action="https://api.web3forms.com/submit" method="POST">
     <input type="hidden" name="access_key" value="c455ebc6-5d5f-44b7-af14-e052fbfc075d">
