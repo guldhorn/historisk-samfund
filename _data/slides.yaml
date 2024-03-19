@@ -7,12 +7,6 @@
 # image_alt: the text to show when hovering the mouse over the image
 # title: the heading in the text-field which overlays the image
 # text: the text of the text-field
- 
-- page_url: /arrangementer/2024-03-12-kolindsund-soen-der-deler-vandene
-  image_url: /assets/kolindsund-slider.jpg
-  image_alt: Foredrag om dræningen af Kolindsøen
-  title: Kolindsund – søen, der deler vandene
-  text: Tirsdag den 12. marts 2024
 
 - page_url: /arrangementer/2024-04-23-danske-herregaardshaver-fra-abildgaard-til-arkitekttegnede-parker
   image_url: /assets/haver-slider.jpg
