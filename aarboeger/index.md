@@ -13,10 +13,6 @@ title: Årbøger
         <p><a href="{{ 'assets/Forfattervejledning.pdf' | relative_url }}">Se vejledningen til forfattere</a></p>
     </div>
 </div>
-      <div>
-        <p>Hvis du trykker på en forside nedenfor, kan du se årbogens indholdsfortegnelse.</p>
-        </div>
-</div>
 
 <div class="yearbook-list">
     {% for book in site.data.yearbooks %}
