@@ -9,4 +9,4 @@ På turen er der mulighed for at komme ind i to af bunkerne, som normalt er lukk
 Turen er ca. 1,5 km. lang, og slutter ved Skanderborg Bunkerne med mulighed for at komme ind i de gamle kommandobunkere, der i dag er indrettet som museum. Vi går ad fine skovstier, og terrænet er lidt kuperet.
 
 Prisen er inkl. rundvisning og adgang til museet. Betaling sker via MobilePay ved fremmøde.
-Tilmelding er nødvendig - kun 40 pladser. Skriv til post@historisk-samfund-aarhus.dk  
+Tilmelding er nødvendig - kun 40 pladser. Skriv til post@historisk-samfund-aarhus.dk
