@@ -8,4 +8,4 @@ Da den tyske værnemagt overgav sig i maj 1945, blev de danske myndigheder ansva
 
 Til dette foredrag vil museumsinspektør og arkivar Martin Philipsen Mølgaard fortælle om de tyske flygtninge, som blev indkvarteret ved Skanderborg. 
 
-Flygtningelejren Sølund blev oprettet i det tidligere tyske hovedkvarter for det tyske Luftwaffe i Skanderborg Dyrehave. Her var der i forvejen barakker og afspærring, som nu kunne bruges til at holde de tyske flygtninge interneret fra 1945-1946.
+Flygtningelejren Sølund blev oprettet i det tidligere tyske hovedkvarter for det tyske Luftwaffe i Skanderborg Dyrehave. Her var der i forvejen barakker og afspærring, som nu kunne bruges til at holde de tyske flygtninge interneret fra 1945-1946. 
