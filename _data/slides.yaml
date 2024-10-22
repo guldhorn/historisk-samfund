@@ -8,12 +8,6 @@
 # title: the heading in the text-field which overlays the image
 # text: the text of the text-field
 
-- page_url: /arrangementer/2024-10-22-vikingernes-aftryk-i-aarhus
-  image_url: /assets/aros-slider.jpg
-  image_alt: Vikingernes aftryk i Aarhus
-  title: Vikingernes aftryk i Aarhus
-  text: Tirsdag den 22. oktober 2024
-
 - page_url: /arrangementer/2024-11-26-den-gamle-by-og-frilandsmuseernes-historie
   image_url: /assets/dgb-slider.jpg
   image_alt: Den Gamle By og frilandsmuseernes historie
