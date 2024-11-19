@@ -8,4 +8,4 @@ Sara Cecilie Utvaag, museumsinspektør på Gammel Estrup, har i sit foredrag fok
 
 Rummene viser spændende eksempler på såkaldt antikreception, hvor antikkens formsprog bruges i herskabets selviscenesættelse. Der dykkes ned i symbolik og historie, og der ses nærmere på, hvad herskabet har ønsket at formidle ved at bruge netop disse billeder.
 
-Vigtigt: Arrangementet er en del af Århundredets Festival. Tilmelding er nødvendig, da vi kun har 60 pladser. 
+Vigtigt: Arrangementet er en del af Århundredets Festival. Tilmelding er nødvendig, da vi kun har 60 pladser. Skriv til post@historisk-samfund-aarhus.dk. 
