@@ -8,7 +8,7 @@ title: Arrangementer
     <P>Arrangementerne tager alle udgangspunkt i Østjyllands historie, og spænder bredt i emne, tid og sted. Du kan således få nyt fra oldtid til nutid, når vi holder foredrag, rundvisninger og udflugter.</p>
 </div>
 
-<h1>Årets arrangementer</h1>
+<h1>Årets arrangementer 2025</h1>
 <ul class="future-arrangements">
 {% for arr in site.data.arrangements %}
     <li class="future-arrangement">
