@@ -47,8 +47,8 @@ Mail: mc@roedkilde-gym.dk
 *Martin Philipsen Mølgaard*<br>
 Mail: mpm@museumskanderborg.dk
 
-*Hanne Schaumburg Sørensen*<br>
-Mail: hss@museumoj.dk
+*Maria Juul Svalling*<br>
+Mail: mariajuul.svalling@hotmail.com
 
 #### Suppleanter
 *Lars Nikolajsen*<br>
