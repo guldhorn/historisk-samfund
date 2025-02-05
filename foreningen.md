@@ -25,9 +25,9 @@ Herluf Trolles Gade 34, 1.<br>
 Telefon: 2448 9535<br>
 Mail: peter.mouritsen@gmail.com
 
-**Mathilde Høberg (Næstformand)**<br>
-Skejbyparken 360, st 5<br>
-8200 Aarhus N<br>
+**Mathilde Høberg (Næstforkvinde)**<br>
+Grøfthøjparken 164<br>
+8260 Viby J<br>
 Telefon: 2322 9362<br>
 Mail: mathilde_hoeberg@hotmail.dk
 
