@@ -20,8 +20,8 @@ Medlemskabet kan betales ved en bankoverførsel eller ved betaling via MobilePay
 
 ### Bestyrelsen
 **Peter Mouritsen (Formand)**<br>
-Thyrasgade 7<br>
-8260 Viby J<br>
+Herluf Trolles Gade 34, 1.<br>
+8200 Aarhus N<br>
 Telefon: 2448 9535<br>
 Mail: peter.mouritsen@gmail.com
 
