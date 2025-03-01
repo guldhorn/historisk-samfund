@@ -26,23 +26,23 @@ Telefon: 2448 9535<br>
 Mail: peter.mouritsen@gmail.com
 
 **Mathilde Høberg (Næstforkvinde)**<br>
-Grøfthøjparken 164<br>
+Grøfthøjparken 164, 2., 15<br>
 8260 Viby J<br>
 Telefon: 2322 9362<br>
 Mail: mathilde_hoeberg@hotmail.dk
 
-**Thomas Norskov Kristensen (Kasserer)**<br>
-Hejredalsvej 106<br>
-8220 Brabrand<br>
-Telefon: 2920 3964<br>
-Mail: thkri@aarhus.dk
+**Mikkel Hoffmann Clausen (Kasserer)**<br>
+Kærvej 33<br>
+8660 Skanderborg<br>
+Telefon: 2087 7683<br>
+Mail: mc@roedkilde-gym.dk
 
 #### Bestyrelsesmedlemmer
 *Berit Guldmann Hornstrup*<br>
 Mail: bghornstrup@hotmail.com
 
-*Mikkel Hoffmann Clausen*<br>
-Mail: mc@roedkilde-gym.dk
+*Thomas Norskov Kristensen*<br>
+Mail: thkri@aarhus.dk
 
 *Martin Philipsen Mølgaard*<br>
 Mail: mpm@museumskanderborg.dk
